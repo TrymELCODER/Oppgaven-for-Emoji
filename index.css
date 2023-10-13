@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+}
+ 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+.button {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
